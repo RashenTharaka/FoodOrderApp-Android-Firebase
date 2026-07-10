@@ -1,0 +1,68 @@
+{
+  "Banners": {
+    "0": {
+      "image": "android.resource://com.example.foodorderapp/drawable/food"
+    },
+    "1": {
+      "image": "android.resource://com.example.foodorderapp/drawable/orange_background"
+    }
+  },
+  "Category": {
+    "0": {
+      "Id": 1,
+      "Name": "Pizza",
+      "ImagePath": "android.resource://com.example.foodorderapp/drawable/food"
+    },
+    "1": {
+      "Id": 2,
+      "Name": "Burger",
+      "ImagePath": "android.resource://com.example.foodorderapp/drawable/food"
+    },
+    "2": {
+      "Id": 3,
+      "Name": "Drinks",
+      "ImagePath": "android.resource://com.example.foodorderapp/drawable/food"
+    }
+  },
+  "Foods": {
+    "0": {
+      "BestFood": true,
+      "CategoryId": 1,
+      "Description": "Cheese pizza with tomato sauce and fresh toppings.",
+      "Id": 1,
+      "ImagePath": "android.resource://com.example.foodorderapp/drawable/food",
+      "LocationId": 1,
+      "Price": 12.50,
+      "Star": 4.8,
+      "TimeId": 1,
+      "TimeValue": 20,
+      "Title": "Cheese Pizza"
+    },
+    "1": {
+      "BestFood": true,
+      "CategoryId": 2,
+      "Description": "Classic burger with cheese, lettuce, and special sauce.",
+      "Id": 2,
+      "ImagePath": "android.resource://com.example.foodorderapp/drawable/food",
+      "LocationId": 1,
+      "Price": 9.99,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 15,
+      "Title": "Classic Burger"
+    },
+    "2": {
+      "BestFood": false,
+      "CategoryId": 3,
+      "Description": "Fresh orange drink served cold.",
+      "Id": 3,
+      "ImagePath": "android.resource://com.example.foodorderapp/drawable/food",
+      "LocationId": 1,
+      "Price": 3.50,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Orange Juice"
+    }
+  }
+}
